@@ -1,1 +1,8 @@
 require("binds")
+require("autostart")
+require("input")
+require("monitors")
+require("permissions")
+require("ui")
+require("variables")
+require("workspaces")
