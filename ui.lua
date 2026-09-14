@@ -36,6 +36,10 @@ hl.config({
         force_default_wallpaper = -1,
         disable_hyprland_logo = false,
     },
+    render = {
+        -- Work around stale/black HDR surfaces on NVIDIA when the screen is idle.
+        keep_unmodified_copy = false,
+    },
 })
 
 hl.curve("easeOutQuint", { type = "bezier", points = { {0.23, 1}, {0.32, 1} } })
